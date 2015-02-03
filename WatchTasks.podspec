@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { "Agustin de Cabrera" => "agustin.decabrera@rga.com" }
   s.source           = { :git => "https://gitlab.web.rga.com/ba-ios/watch-tasks.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.2'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
