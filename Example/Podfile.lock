@@ -1,0 +1,14 @@
+PODS:
+  - WatchTasks (0.1.0)
+
+DEPENDENCIES:
+  - WatchTasks (from `../`)
+
+EXTERNAL SOURCES:
+  WatchTasks:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WatchTasks: 9464c835d735af529564c8dd6540215515a26a42
+
+COCOAPODS: 0.35.0
