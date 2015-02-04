@@ -28,6 +28,8 @@
 		E369958C1A817CC200CFA826 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E369958A1A817CC200CFA826 /* Interface.storyboard */; };
 		E369958E1A817CC200CFA826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E369958D1A817CC200CFA826 /* Images.xcassets */; };
 		E36995911A817CC200CFA826 /* WatchTasksApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E36995781A817CC100CFA826 /* WatchTasksApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3A9400B1A82944300DDC955 /* WTExampleServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9400A1A82944300DDC955 /* WTExampleServer.m */; };
+		E3A9400E1A82945200DDC955 /* WTExampleClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9400D1A82945200DDC955 /* WTExampleClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,10 @@
 		E36995891A817CC200CFA826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E369958B1A817CC200CFA826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		E369958D1A817CC200CFA826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E3A940091A82944300DDC955 /* WTExampleServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTExampleServer.h; sourceTree = "<group>"; };
+		E3A9400A1A82944300DDC955 /* WTExampleServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTExampleServer.m; sourceTree = "<group>"; };
+		E3A9400C1A82945200DDC955 /* WTExampleClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTExampleClient.h; sourceTree = "<group>"; };
+		E3A9400D1A82945200DDC955 /* WTExampleClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTExampleClient.m; sourceTree = "<group>"; };
 		FAAE337B004662DC11DB4E06 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,6 +234,8 @@
 			children = (
 				E369957C1A817CC200CFA826 /* InterfaceController.h */,
 				E369957D1A817CC200CFA826 /* InterfaceController.m */,
+				E3A9400C1A82945200DDC955 /* WTExampleClient.h */,
+				E3A9400D1A82945200DDC955 /* WTExampleClient.m */,
 				E369957F1A817CC200CFA826 /* Images.xcassets */,
 				E369957A1A817CC200CFA826 /* Supporting Files */,
 			);
@@ -263,6 +271,8 @@
 		E3A93FFC1A82727800DDC955 /* Example Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				E3A940091A82944300DDC955 /* WTExampleServer.h */,
+				E3A9400A1A82944300DDC955 /* WTExampleServer.m */,
 				E369956F1A81702400CFA826 /* WTExampleTask.h */,
 				E36995701A81702400CFA826 /* WTExampleTask.m */,
 			);
@@ -466,6 +476,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A9400B1A82944300DDC955 /* WTExampleServer.m in Sources */,
 				E36995711A81702400CFA826 /* WTExampleTask.m in Sources */,
 				6003F59E195388D20070C39A /* WTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WTViewController.m in Sources */,
@@ -477,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A9400E1A82945200DDC955 /* WTExampleClient.m in Sources */,
 				E369957E1A817CC200CFA826 /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,11 +10,6 @@
 
 @implementation WTExampleTask
 
-+(void)load
-{
-    [[WTTaskServer sharedInstance] registerClass:self];
-}
-
 +(BOOL)canHandleTaskRequest:(WTTaskRequest *)request
 {
     return [request.taskType isEqualToString:@"ExampleTask"];

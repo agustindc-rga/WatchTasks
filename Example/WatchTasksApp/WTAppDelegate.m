@@ -7,7 +7,7 @@
 //
 
 #import "WTAppDelegate.h"
-#import <WatchTasks/WatchTasks.h>
+#import "WTExampleServer.h"
 
 @implementation WTAppDelegate
 
@@ -49,7 +49,7 @@
 - (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void(^)(NSDictionary *replyInfo))reply
 {
     WTTaskRequest *request = [[WTTaskRequest alloc] initWithDictionary:userInfo];
-    [[WTTaskServer sharedInstance] handleTaskRequest:request reply:reply];
+    [[WTExampleServer sharedServer] handleTaskRequest:request reply:reply];
 }
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "InterfaceController.h"
-#import <WatchTasks/WatchTasks.h>
+#import "WTExampleClient.h"
 
 
 @interface InterfaceController()
@@ -44,15 +44,10 @@
 -(IBAction)buttonTapped:(id)sender {
     [self presentTextInputControllerWithSuggestions:@[@"Bob", @"Alice"] allowedInputMode:WKTextInputModePlain completion:^(NSArray *results) {
         
-        WTTaskRequest *request = [[WTTaskRequest alloc] initWithTaskType:@"ExampleTask"];
-        request.parameters[@"name"] = [results componentsJoinedByString:@" "];
-        
-        [[WTTaskClient sharedInstance] sendTaskRequest:request completion:^(WTTaskResponse *response) {
-            
-            if (!response.errorMessage) {
-                [self.button setHidden:YES];
-                [self.label setText:response.data[@"message"]];
-            }
+        NSString *name = [results componentsJoinedByString:@" "];
+        [[WTExampleClient sharedClient] performExampleTaskWithName:name completion:^(NSString *message) {
+            [self.button setHidden:YES];
+            [self.label setText:message];
         }];
     }];
 }
