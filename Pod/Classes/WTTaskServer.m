@@ -33,18 +33,6 @@
 
 @implementation WTTaskServer
 
-+ (instancetype)sharedInstance
-{
-    static WTTaskServer *sharedInstance;
-    
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [[self alloc] init];
-    });
-    
-    return sharedInstance;
-}
-
 - (id)init
 {
     if (self = [super init]) {

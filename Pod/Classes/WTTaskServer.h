@@ -14,8 +14,6 @@
 
 @interface WTTaskServer : NSObject
 
-+ (instancetype)sharedInstance; // not required
-
 - (void)registerClass:(Class<WTTask>)taskClass;
 - (void)registerClass:(Class<WTTask>)taskClass priority:(int)priority;
 
