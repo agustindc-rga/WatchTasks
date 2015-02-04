@@ -12,8 +12,6 @@
 
 @interface WTTaskClient : NSObject
 
-+ (instancetype)sharedInstance; // not required
-
 - (void)sendTaskRequest:(WTTaskRequest*)request completion:(void(^)(WTTaskResponse* response))completion;
 
 @end

@@ -13,18 +13,6 @@
 
 @implementation WTTaskClient
 
-+ (instancetype)sharedInstance
-{
-    static WTTaskClient *sharedInstance;
-    
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [[self alloc] init];
-    });
-    
-    return sharedInstance;
-}
-
 - (void)sendTaskRequest:(WTTaskRequest*)request completion:(void(^)(WTTaskResponse* response))completion
 {
     [WKInterfaceController openParentApplication:[request convertToDictionary] reply:^(NSDictionary *replyInfo, NSError *error) {
