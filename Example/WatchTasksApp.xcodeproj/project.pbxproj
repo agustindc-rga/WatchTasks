@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2216352A2E181AFAC92FF3D1 /* libPods-WatchTasks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC789B2629F70756045E5E3 /* libPods-WatchTasks.a */; };
-		3BD0D98C31772578D9373A91 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FF61C493B1EB18ADF6AB24 /* libPods.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -121,8 +119,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2216352A2E181AFAC92FF3D1 /* libPods-WatchTasks.a in Frameworks */,
-				3BD0D98C31772578D9373A91 /* libPods.a in Frameworks */,
 				ACA41687793A528F73C0D450 /* libPods-WatchTasksApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
