@@ -6,7 +6,7 @@
 //
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 @class WTTaskRequest;
 @class WTTaskResponse;
 @protocol WTTask;
@@ -18,5 +18,12 @@
 - (void)registerClass:(Class<WTTask>)taskClass priority:(int)priority;
 
 - (void)handleTaskRequest:(WTTaskRequest*)request reply:(void(^)(NSDictionary *replyInfo))reply;
+
+@end
+
+
+@interface WTTaskServer (Application)
+
+- (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void(^)(NSDictionary *replyInfo))reply;
 
 @end

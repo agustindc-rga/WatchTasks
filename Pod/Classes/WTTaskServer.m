@@ -140,3 +140,33 @@
 }
 
 @end
+
+
+@implementation WTTaskServer (Application)
+
+- (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void(^)(NSDictionary *replyInfo))reply
+{
+    //Apple Code- currently there isn't enough time alloced for the watch task so a background task has to be made
+    //This should be fixed in a later OS version
+    __block UIBackgroundTaskIdentifier identifier = UIBackgroundTaskInvalid;
+    dispatch_block_t endBlock = ^ {
+        if (identifier != UIBackgroundTaskInvalid) {
+            [application endBackgroundTask:identifier];
+        }
+        identifier = UIBackgroundTaskInvalid;
+    };
+    
+    identifier = [application beginBackgroundTaskWithExpirationHandler:endBlock];
+    //
+    
+    WTTaskRequest *request = [[WTTaskRequest alloc] initWithDictionary:userInfo];
+    [self handleTaskRequest:request reply:^(NSDictionary *replyInfo) {
+        reply(replyInfo);
+        
+        dispatch_time_t when = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC));
+        dispatch_after(when, dispatch_get_main_queue(), endBlock);
+    }];
+}
+
+@end
+
