@@ -51,9 +51,9 @@ static NSString *const kResponseDataKey = @"data";
 @end
 
 
-@implementation WTTaskResponse (ErrorMessage)
+#import "WTTaskResponse+NSError.h"
 
-static NSString *const kErrorMessageResponseKey = @"error";
+@implementation WTTaskResponse (ErrorMessage)
 
 + (instancetype)responseWithErrorMessage:(NSString*)errorMessage
 {
@@ -65,16 +65,15 @@ static NSString *const kErrorMessageResponseKey = @"error";
 
 -(NSString *)errorMessage
 {
-    return self.data[kErrorMessageResponseKey];
+    return self.error.localizedDescription;
 }
 -(void)setErrorMessage:(NSString *)errorMessage
 {
-    [self.data setValue:errorMessage forKey:kErrorMessageResponseKey];
+    self.error = [WTTaskResponse errorWithCode:WTTaskErrorUnknown message:errorMessage];
 }
 
 @end
 
-#import "WTTaskResponse+NSError.h"
 
 @implementation WTTaskResponse (ResponseSetup)
 

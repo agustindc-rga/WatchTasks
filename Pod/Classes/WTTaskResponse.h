@@ -20,8 +20,8 @@
 
 @interface WTTaskResponse (ErrorMessage)
 
-+ (instancetype)responseWithErrorMessage:(NSString*)errorMessage;
-@property (nonatomic) NSString *errorMessage;
++ (instancetype)responseWithErrorMessage:(NSString*)errorMessage DEPRECATED_ATTRIBUTE;
+@property (nonatomic) NSString *errorMessage DEPRECATED_ATTRIBUTE;
 
 @end
 
