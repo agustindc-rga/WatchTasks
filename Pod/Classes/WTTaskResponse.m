@@ -74,6 +74,7 @@ static NSString *const kErrorMessageResponseKey = @"error";
 
 @end
 
+#import "WTTaskResponse+NSError.h"
 
 @implementation WTTaskResponse (ResponseSetup)
 
@@ -85,7 +86,8 @@ static NSString *const kErrorMessageResponseKey = @"error";
         if (block)
             block(response);
     } @catch(NSException *exception) {
-        response.errorMessage = exception.reason;
+        response.error = [self errorWithCode:WTTaskErrorException 
+                                     message:exception.reason];
     }
     
     if (completion)

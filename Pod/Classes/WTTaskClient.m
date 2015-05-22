@@ -8,7 +8,7 @@
 
 #import "WTTaskClient.h"
 #import "WTTaskRequest.h"
-#import "WTTaskResponse.h"
+#import "WTTaskResponse+NSError.h"
 #import <WatchKit/WatchKit.h>
 
 @implementation WTTaskClient
@@ -19,8 +19,8 @@
         
         WTTaskResponse *response = [[WTTaskResponse alloc] initWithDictionary:replyInfo];
         
-        if (!response.errorMessage && error) {
-            response.errorMessage = error.localizedDescription;
+        if (!response.error && error) {
+            response.error = error;
         }
         
         if (completion)

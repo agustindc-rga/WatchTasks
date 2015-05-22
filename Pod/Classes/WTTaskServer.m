@@ -8,7 +8,7 @@
 
 #import "WTTaskServer.h"
 #import "WTTaskRequest.h"
-#import "WTTaskResponse.h"
+#import "WTTaskResponse+NSError.h"
 #import "WTTask.h"
 
 
@@ -83,23 +83,23 @@
         }
         
         if (tasks.count == 0) {
-            [self handleError:@"ERROR: no task handler found" withReplyBlock:reply];
+            WTTaskResponse *response = [WTTaskResponse responseWithErrorCode:WTTaskErrorNoHandler 
+                                                                     message:@"ERROR: no task handler found"];
+            [self handleResponse:response withReplyBlock:reply];
             return;
         }
         
         [self handleTaskRequest:request withTasks:tasks previousResponse:nil reply:reply];
         
     } @catch(NSException *exception) {
-        [self handleError:exception.reason withReplyBlock:reply];
+        WTTaskResponse *response = [WTTaskResponse responseWithErrorCode:WTTaskErrorException 
+                                                                 message:exception.reason];
+        [self handleResponse:response withReplyBlock:reply];
     }
 }
 
 #pragma mark Private
 
-- (void)handleError:(NSString*)errorMessage withReplyBlock:(void(^)(NSDictionary *replyInfo))reply
-{
-    [self handleResponse:[WTTaskResponse responseWithErrorMessage:errorMessage] withReplyBlock:reply];
-}
 - (void)handleResponse:(WTTaskResponse*)response withReplyBlock:(void(^)(NSDictionary *replyInfo))reply
 {
     if (reply)
@@ -122,7 +122,7 @@
         [weakSelf.currentTasks removeObject:weakTask];
         
         // error handling
-        if (response.errorMessage || tasks.count == 1) {
+        if (response.error || tasks.count == 1) {
             [weakSelf handleResponse:response withReplyBlock:reply];
             return;
         }
