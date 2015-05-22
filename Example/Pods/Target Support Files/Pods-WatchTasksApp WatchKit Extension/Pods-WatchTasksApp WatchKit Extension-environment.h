@@ -8,7 +8,7 @@
 
 // WatchTasks
 #define COCOAPODS_POD_AVAILABLE_WatchTasks
-#define COCOAPODS_VERSION_MAJOR_WatchTasks 0
-#define COCOAPODS_VERSION_MINOR_WatchTasks 1
+#define COCOAPODS_VERSION_MAJOR_WatchTasks 1
+#define COCOAPODS_VERSION_MINOR_WatchTasks 0
 #define COCOAPODS_VERSION_PATCH_WatchTasks 0
 

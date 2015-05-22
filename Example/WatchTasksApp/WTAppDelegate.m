@@ -13,7 +13,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        WTTaskRequest *request = [[WTTaskRequest alloc] initWithTaskType:@"ExampleTask"];
+        request.parameters[@"name"] = @"aName";
+        
+        [self application:application handleWatchKitExtensionRequest:[request convertToDictionary] reply:^(NSDictionary *replyInfo) {
+           
+            NSLog(@"reply: %@", replyInfo);
+            WTTaskResponse *response = [[WTTaskResponse alloc] initWithDictionary:replyInfo];
+            NSLog(@"response: %@", response);
+        }];
+    });
+    
     return YES;
 }
 							
@@ -48,8 +60,7 @@
 
 - (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void(^)(NSDictionary *replyInfo))reply
 {
-    WTTaskRequest *request = [[WTTaskRequest alloc] initWithDictionary:userInfo];
-    [[WTExampleServer sharedServer] handleTaskRequest:request reply:reply];
+    [[WTExampleServer sharedServer] application:application handleWatchKitExtensionRequest:userInfo reply:reply];
 }
 
 @end

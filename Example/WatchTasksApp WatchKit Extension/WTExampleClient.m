@@ -29,10 +29,8 @@
     
     [self sendTaskRequest:request completion:^(WTTaskResponse *response) {
 
-        NSString *message = response.data[@"message"];
-        if (response.errorMessage) {
-            message = response.errorMessage;
-        }
+        NSError *error = response.error;
+        NSString *message = (error ? error.localizedDescription : response.data[@"message"]);
         
         if (completion)
             completion(message);

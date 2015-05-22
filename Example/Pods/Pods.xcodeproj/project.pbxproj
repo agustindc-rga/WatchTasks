@@ -1,2043 +1,910 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>041B10A327FA52C5919C7892</key>
-		<dict>
-			<key>fileRef</key>
-			<string>527DB33AEEBAEF66E53D11F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>046950B2DAA9456BE64EF0B1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3AE15EAEC9C5C39A78F3D27A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>064AE104B04D8B2F4EB2A55B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC43DC2A4E38A8309D637BA1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>067B673710C9B0B7AFB798C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8207B623E970FC6B52AA2B70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0FA977439CEC422E33F22BC9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8949BF7C7DDE3BD7DEA519E9</string>
-				<string>456DFED58237D6878A44894A</string>
-				<string>DC43DC2A4E38A8309D637BA1</string>
-				<string>F090D226A43C64E3A5746C51</string>
-				<string>E4E3437A6C05D04201D55A63</string>
-				<string>3AE15EAEC9C5C39A78F3D27A</string>
-				<string>E37EB167A8655501DF665EE1</string>
-				<string>8207B623E970FC6B52AA2B70</string>
-				<string>A666341F257FF04593C65639</string>
-				<string>3B71BBB3EDAD74DF6A5D2525</string>
-				<string>8E68C1088601512A4780CF82</string>
-				<string>DF8EF46F15385D352685D8FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>WatchTasks</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10CCC8F2093DCCEF00117983</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB14556B86D6E049B27CCF19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1219E5F914E87C5D53255118</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>983C0E90D779326A22A7A09C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>12490D3267FEFA4BC454C062</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>4B5E5661437170A693C2DA02</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>9A994D73366DD65C04B09E06</string>
-			<key>productRefGroup</key>
-			<string>7A8F6F0ECA44892F90272AA5</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>2B7800C6C2EE8017BC946E88</string>
-				<string>257276DEF54CD6B8D1CD8C05</string>
-				<string>BECC0A7C33F0871CC6055C3B</string>
-				<string>59FDB45C3743B1DEE21F4C1A</string>
-				<string>D72A7E3916806D4A55E91C5A</string>
-			</array>
-		</dict>
-		<key>139FB377D89B345F782238E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>456DFED58237D6878A44894A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13E4319E85EAE2069C19E4D0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93ACABBD950073F7CA3E24AE</string>
-				<string>EF4D153A37DBDDD35971D2D7</string>
-				<string>527DB33AEEBAEF66E53D11F9</string>
-				<string>B15F4BE0CA3BF7975AE6B695</string>
-				<string>F16623D0D24C34AADDC290DD</string>
-				<string>C531941C7B2D6E7A61FD6604</string>
-				<string>37277D04845D094561514615</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-WatchTasksApp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17ECB4AC77C62DD849E17286</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB14556B86D6E049B27CCF19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1EC48D2360582C6B7F35718D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1F691566A6F72238C8B28892</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>37277D04845D094561514615</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>22B379925F72F9C524975F26</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F9E294F67E03227D620A87F9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-WatchTasksApp WatchKit Extension-WatchTasks/Pods-WatchTasksApp WatchKit Extension-WatchTasks-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>257276DEF54CD6B8D1CD8C05</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FDAB1D8594B10E56D495F486</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1219E5F914E87C5D53255118</string>
-				<string>3424F0C9CCDD5AD957A8859E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>CA8705DD511EBB3D81F88A88</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp WatchKit Extension</string>
-			<key>productName</key>
-			<string>Pods-WatchTasksApp WatchKit Extension</string>
-			<key>productReference</key>
-			<string>3C3AB7087082E3D6EEC4EE4B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>28E81EB497C1424E994A33C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC43DC2A4E38A8309D637BA1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A494BD769E69FD51C0FFD96</key>
-		<dict>
-			<key>fileRef</key>
-			<string>456DFED58237D6878A44894A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B7800C6C2EE8017BC946E88</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B37174C54CA505007DA1BA90</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DF8459AB0160208E6FD1962A</string>
-				<string>57FA8B45A9262641BD5B9C5A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>CF8E5F6B3506C7DEC317BC72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp</string>
-			<key>productName</key>
-			<string>Pods-WatchTasksApp</string>
-			<key>productReference</key>
-			<string>ECFA3F8F413C6BCD27D5364C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>2E540CE8DC533ABC6D67777E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>WatchTasks</string>
-			<key>target</key>
-			<string>D72A7E3916806D4A55E91C5A</string>
-			<key>targetProxy</key>
-			<string>FB06D6060F21960E7F4FA641</string>
-		</dict>
-		<key>2E7916B8AE77528D1484599E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E2C0EE20727994F1EB9B3251</string>
-				<string>BA20F0087499C8A8338D9FF5</string>
-				<string>3B69DAF29A97074B9D9EF80D</string>
-				<string>D5F6D2E3047A44CCF11BCFA8</string>
-				<string>E7D29510A4AC360FDA4418F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>327C0612B951751D5DC87AA2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3424F0C9CCDD5AD957A8859E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F0C2DF530EDA062F74FDC532</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>35827FA09BA5F39C50508DE3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8949BF7C7DDE3BD7DEA519E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>371110CC96AC6670364A24FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E37EB167A8655501DF665EE1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37277D04845D094561514615</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3857BEBAAF4F4D744E4FE8ED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13E4319E85EAE2069C19E4D0</string>
-				<string>C02E7654C598B5DA21E590BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3AE15EAEC9C5C39A78F3D27A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>WTTaskRequest.m</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTaskRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B69DAF29A97074B9D9EF80D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3AE15EAEC9C5C39A78F3D27A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B71BBB3EDAD74DF6A5D2525</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>WTTaskServer.m</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTaskServer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B95C3082E555E5EDE5056BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-WatchTasks-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C3AB7087082E3D6EEC4EE4B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-WatchTasksApp WatchKit Extension.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>43E0F8C700A64DC5DA0CA296</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F090D226A43C64E3A5746C51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>43FA3D989A9DB9B1E4FA16C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E37EB167A8655501DF665EE1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>456DFED58237D6878A44894A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WTTask.h</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTask.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4978017D9C498C118CC292A1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7743708B6303D6E900210229</string>
-				<string>A56F693BB1D1BB1B70190B67</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4A390D5CEABB55A0C142BD87</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>12490D3267FEFA4BC454C062</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D72A7E3916806D4A55E91C5A</string>
-			<key>remoteInfo</key>
-			<string>WatchTasks</string>
-		</dict>
-		<key>4A620BAAF07725CB40C24284</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4B5E5661437170A693C2DA02</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E032F446871010D6173F8686</string>
-				<string>4A620BAAF07725CB40C24284</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4D6BCF7AAE9DCA789B571774</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E68C1088601512A4780CF82</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4F62D126BF2ADF32FDAA4F3C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp-WatchTasks-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>524596B9A2EBF0BF27BCCE51</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BB14556B86D6E049B27CCF19</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>527DB33AEEBAEF66E53D11F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57FA8B45A9262641BD5B9C5A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>17ECB4AC77C62DD849E17286</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>582F86A8431692B330FF4AE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4E3437A6C05D04201D55A63</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>59D0C9B9E4A36B7F83518A91</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>327C0612B951751D5DC87AA2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>59FDB45C3743B1DEE21F4C1A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>84EC0C378533FD048457BF5E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DE76B752BE4C2915025C61B0</string>
-				<string>E7142DA27DE2F1DEB9AEE2FD</string>
-				<string>E5FC5FC0B5306D45E9D02D48</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2E540CE8DC533ABC6D67777E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp-WatchTasks</string>
-			<key>productName</key>
-			<string>Pods-WatchTasksApp-WatchTasks</string>
-			<key>productReference</key>
-			<string>E7C3503AD663C7983106D699</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>5C2E13FFCDF7062A8D6CADEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>65E378AF3062D33ADBD29896</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E68C1088601512A4780CF82</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>678447709A1282C236C6FC77</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4126EB972D0F0F2EA320B02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6BE26D09802E85AA18994CBE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FD0D50CBCA3D075111DC5D8E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6C153B61875D0E552E258BA9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>35827FA09BA5F39C50508DE3</string>
-				<string>2A494BD769E69FD51C0FFD96</string>
-				<string>064AE104B04D8B2F4EB2A55B</string>
-				<string>582F86A8431692B330FF4AE4</string>
-				<string>371110CC96AC6670364A24FB</string>
-				<string>CC63FC508B4AE62E3F03D8C6</string>
-				<string>65E378AF3062D33ADBD29896</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6F319CDFA06A7B7405B83EA8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>6F95E510EE5CF7DF33FB79A3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70EE2289CA8B4A8B4EE7721A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-WatchTasksApp WatchKit Extension-WatchTasks.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>77376B3FE36C41BAA4B03327</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A666341F257FF04593C65639</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7743708B6303D6E900210229</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7997A83826728D27480A8E97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp-WatchTasks-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A8F6F0ECA44892F90272AA5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F7FA466424268F1EF98052F8</string>
-				<string>ECFA3F8F413C6BCD27D5364C</string>
-				<string>3C3AB7087082E3D6EEC4EE4B</string>
-				<string>70EE2289CA8B4A8B4EE7721A</string>
-				<string>E7C3503AD663C7983106D699</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8207B623E970FC6B52AA2B70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>WTTaskResponse.m</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTaskResponse.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84EC0C378533FD048457BF5E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9C78620A9DEC05D6DF732854</string>
-				<string>8AFECFCEB695BA08ED7F5228</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>85AF886AC5500FB03C9990B1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4E3437A6C05D04201D55A63</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>85E74CAF132D17B31F72895A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8613164FEE341EDE2307A4EF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0FA977439CEC422E33F22BC9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88F9B550311E7605C2FF1371</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>WatchTasks</string>
-			<key>target</key>
-			<string>D72A7E3916806D4A55E91C5A</string>
-			<key>targetProxy</key>
-			<string>4A390D5CEABB55A0C142BD87</string>
-		</dict>
-		<key>8949BF7C7DDE3BD7DEA519E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WTDictionaryCoding.h</string>
-			<key>path</key>
-			<string>Pod/Classes/WTDictionaryCoding.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8AFC0E47E68A07E46FE33F0A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp-WatchTasks.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8AFECFCEB695BA08ED7F5228</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7997A83826728D27480A8E97</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8E68C1088601512A4780CF82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WatchTasks.h</string>
-			<key>path</key>
-			<string>Pod/Classes/WatchTasks.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93ACABBD950073F7CA3E24AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96639FC93EEA19CBC07D8C0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>971DA927175DB53D30592DDD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>12490D3267FEFA4BC454C062</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>BECC0A7C33F0871CC6055C3B</string>
-			<key>remoteInfo</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-WatchTasks</string>
-		</dict>
-		<key>983C0E90D779326A22A7A09C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F95E510EE5CF7DF33FB79A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>988F8BF7FE1F173C07DB3347</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A1F5AC83DED00A9B7171600</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9A994D73366DD65C04B09E06</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6F319CDFA06A7B7405B83EA8</string>
-				<string>8613164FEE341EDE2307A4EF</string>
-				<string>DFA498D49861F86C49068E95</string>
-				<string>7A8F6F0ECA44892F90272AA5</string>
-				<string>3857BEBAAF4F4D744E4FE8ED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B022187CDF190D30F6D8C5B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-WatchTasks-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C78620A9DEC05D6DF732854</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7997A83826728D27480A8E97</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9EC61DCFAC16F1088A24D1B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-WatchTasks.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F929AB46FB84CDE76F3E970</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8949BF7C7DDE3BD7DEA519E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A56F693BB1D1BB1B70190B67</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A666341F257FF04593C65639</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WTTaskServer.h</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTaskServer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B15F4BE0CA3BF7975AE6B695</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B37174C54CA505007DA1BA90</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C79DD089A4A1850F0E20B941</string>
-				<string>1F691566A6F72238C8B28892</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B72BEA3FF6D6BFCA1FE6D33D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>12490D3267FEFA4BC454C062</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>59FDB45C3743B1DEE21F4C1A</string>
-			<key>remoteInfo</key>
-			<string>Pods-WatchTasksApp-WatchTasks</string>
-		</dict>
-		<key>BA20F0087499C8A8338D9FF5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F090D226A43C64E3A5746C51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BB14556B86D6E049B27CCF19</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>BD6DC782A85A6490B5F1A274</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>22B379925F72F9C524975F26</string>
-				<string>EF6DE6A309094E5697887A05</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BECC0A7C33F0871CC6055C3B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BD6DC782A85A6490B5F1A274</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2E7916B8AE77528D1484599E</string>
-				<string>FEBCEC11CEE4C10C47434234</string>
-				<string>6C153B61875D0E552E258BA9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>88F9B550311E7605C2FF1371</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-WatchTasks</string>
-			<key>productName</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-WatchTasks</string>
-			<key>productReference</key>
-			<string>70EE2289CA8B4A8B4EE7721A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C02E7654C598B5DA21E590BF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5C2E13FFCDF7062A8D6CADEF</string>
-				<string>988F8BF7FE1F173C07DB3347</string>
-				<string>6F95E510EE5CF7DF33FB79A3</string>
-				<string>85E74CAF132D17B31F72895A</string>
-				<string>96639FC93EEA19CBC07D8C0D</string>
-				<string>327C0612B951751D5DC87AA2</string>
-				<string>FD0D50CBCA3D075111DC5D8E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp WatchKit Extension</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-WatchTasksApp WatchKit Extension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C531941C7B2D6E7A61FD6604</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C79DD089A4A1850F0E20B941</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C531941C7B2D6E7A61FD6604</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CA8705DD511EBB3D81F88A88</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-WatchTasks</string>
-			<key>target</key>
-			<string>BECC0A7C33F0871CC6055C3B</string>
-			<key>targetProxy</key>
-			<string>971DA927175DB53D30592DDD</string>
-		</dict>
-		<key>CC63FC508B4AE62E3F03D8C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A666341F257FF04593C65639</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CCE3CD25EAAFC665197B6312</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B71BBB3EDAD74DF6A5D2525</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CF8E5F6B3506C7DEC317BC72</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp-WatchTasks</string>
-			<key>target</key>
-			<string>59FDB45C3743B1DEE21F4C1A</string>
-			<key>targetProxy</key>
-			<string>B72BEA3FF6D6BFCA1FE6D33D</string>
-		</dict>
-		<key>D5F6D2E3047A44CCF11BCFA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8207B623E970FC6B52AA2B70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D72A7E3916806D4A55E91C5A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4978017D9C498C118CC292A1</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9A1F5AC83DED00A9B7171600</string>
-				<string>1EC48D2360582C6B7F35718D</string>
-				<string>D9F66E54C8DE3D11BFADDC98</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>WatchTasks</string>
-			<key>productName</key>
-			<string>WatchTasks</string>
-			<key>productReference</key>
-			<string>F7FA466424268F1EF98052F8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>D9F66E54C8DE3D11BFADDC98</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DC43DC2A4E38A8309D637BA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WTTaskClient.h</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTaskClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE76B752BE4C2915025C61B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>678447709A1282C236C6FC77</string>
-				<string>43E0F8C700A64DC5DA0CA296</string>
-				<string>046950B2DAA9456BE64EF0B1</string>
-				<string>067B673710C9B0B7AFB798C8</string>
-				<string>CCE3CD25EAAFC665197B6312</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DF8459AB0160208E6FD1962A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>041B10A327FA52C5919C7892</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DF8EF46F15385D352685D8FB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9EC61DCFAC16F1088A24D1B4</string>
-				<string>F9E294F67E03227D620A87F9</string>
-				<string>3B95C3082E555E5EDE5056BA</string>
-				<string>9B022187CDF190D30F6D8C5B</string>
-				<string>8AFC0E47E68A07E46FE33F0A</string>
-				<string>7997A83826728D27480A8E97</string>
-				<string>E4126EB972D0F0F2EA320B02</string>
-				<string>4F62D126BF2ADF32FDAA4F3C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-WatchTasksApp WatchKit Extension-WatchTasks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFA498D49861F86C49068E95</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>524596B9A2EBF0BF27BCCE51</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E032F446871010D6173F8686</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E2C0EE20727994F1EB9B3251</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B95C3082E555E5EDE5056BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E37EB167A8655501DF665EE1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WTTaskResponse.h</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTaskResponse.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4126EB972D0F0F2EA320B02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-WatchTasksApp-WatchTasks-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4E3437A6C05D04201D55A63</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WTTaskRequest.h</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTaskRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5FC5FC0B5306D45E9D02D48</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9F929AB46FB84CDE76F3E970</string>
-				<string>139FB377D89B345F782238E7</string>
-				<string>28E81EB497C1424E994A33C4</string>
-				<string>85AF886AC5500FB03C9990B1</string>
-				<string>43FA3D989A9DB9B1E4FA16C4</string>
-				<string>77376B3FE36C41BAA4B03327</string>
-				<string>4D6BCF7AAE9DCA789B571774</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E7142DA27DE2F1DEB9AEE2FD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F29EABAC53F03030CA5D7D3B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E7C3503AD663C7983106D699</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-WatchTasksApp-WatchTasks.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E7D29510A4AC360FDA4418F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B71BBB3EDAD74DF6A5D2525</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ECFA3F8F413C6BCD27D5364C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-WatchTasksApp.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EF4D153A37DBDDD35971D2D7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF6DE6A309094E5697887A05</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F9E294F67E03227D620A87F9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-WatchTasksApp WatchKit Extension-WatchTasks/Pods-WatchTasksApp WatchKit Extension-WatchTasks-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F090D226A43C64E3A5746C51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>WTTaskClient.m</string>
-			<key>path</key>
-			<string>Pod/Classes/WTTaskClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0C2DF530EDA062F74FDC532</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB14556B86D6E049B27CCF19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F16623D0D24C34AADDC290DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F29EABAC53F03030CA5D7D3B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB14556B86D6E049B27CCF19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F7FA466424268F1EF98052F8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>WatchTasks.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F9E294F67E03227D620A87F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension-WatchTasks-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FB06D6060F21960E7F4FA641</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>12490D3267FEFA4BC454C062</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D72A7E3916806D4A55E91C5A</string>
-			<key>remoteInfo</key>
-			<string>WatchTasks</string>
-		</dict>
-		<key>FD0D50CBCA3D075111DC5D8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-WatchTasksApp WatchKit Extension.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDAB1D8594B10E56D495F486</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>59D0C9B9E4A36B7F83518A91</string>
-				<string>6BE26D09802E85AA18994CBE</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FEBCEC11CEE4C10C47434234</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>10CCC8F2093DCCEF00117983</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>12490D3267FEFA4BC454C062</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05951076E93C7E88BE1A192E /* WTTaskResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A0036249184EC9CB55D27C58 /* WTTaskResponse.h */; };
+		07D9C1F37B60A84F0A9BC1F1 /* WTTaskResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 686383FAB1928DA83E94F20E /* WTTaskResponse.m */; };
+		091B31C3CED619891AFA9964 /* WTTaskResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 686383FAB1928DA83E94F20E /* WTTaskResponse.m */; };
+		149932E8BD380F59247501C7 /* WTTaskResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A0036249184EC9CB55D27C58 /* WTTaskResponse.h */; };
+		29E671F5C978E0C6DC006D4A /* WTTaskServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 054AF30069F4852631B296B4 /* WTTaskServer.h */; };
+		2C821B2D629EA371FCB934BF /* WTTaskClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A64EE313E5FA2443FB4E829B /* WTTaskClient.m */; };
+		2EAFA7CD70CD2FB5B4DCCED0 /* WTTaskClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A64EE313E5FA2443FB4E829B /* WTTaskClient.m */; };
+		3F74FA9C2F8DC45A53DB9B85 /* WatchTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D665EC67A413384CE74ACB /* WatchTasks.h */; };
+		45B36DBBA8741D1CC73F8247 /* WTTaskResponse+NSError.m in Sources */ = {isa = PBXBuildFile; fileRef = D501EEF0A6627C226D22E031 /* WTTaskResponse+NSError.m */; };
+		53AFC384BCEC5D941F32972C /* WTTaskRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0007D412EC424EF352148967 /* WTTaskRequest.h */; };
+		5612142B498E2C151DFD2425 /* WTTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB0A55460CDF9083359E1A3 /* WTTask.h */; };
+		5A0E8F2D6EF92D1CED9A9EDD /* WTTaskClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC514470D8BA32011770565 /* WTTaskClient.h */; };
+		6778230CB4B897AE0453E49B /* Pods-WatchTasksApp WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E05BDDA51463E7CDC9590C9 /* Pods-WatchTasksApp WatchKit Extension-dummy.m */; };
+		6C52B2DB1513D5E07771FCAF /* WTTaskServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C0EF6AC66E0838AEAC0E5 /* WTTaskServer.m */; };
+		6EC04A59771D2C0D6A60C0FB /* WTTaskResponse+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 034D494206C03A4F5613F877 /* WTTaskResponse+NSError.h */; };
+		7033171AC58B37C3F7092281 /* WTTaskServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C0EF6AC66E0838AEAC0E5 /* WTTaskServer.m */; };
+		7405517F84FBA94CC1C32712 /* WTTaskClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC514470D8BA32011770565 /* WTTaskClient.h */; };
+		79BB1CE0E85EDF7204BAD591 /* WatchTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D665EC67A413384CE74ACB /* WatchTasks.h */; };
+		85EF852B5B160D44D34BE53C /* WTTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB0A55460CDF9083359E1A3 /* WTTask.h */; };
+		8C20FD8C01ECC723C6D55E39 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5EC6F89F611918E1245BD /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-dummy.m */; };
+		96E644DA205378E4E195E975 /* WTTaskServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 054AF30069F4852631B296B4 /* WTTaskServer.h */; };
+		994379543787006B0C403C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A523A38A39529D2F733A832 /* Foundation.framework */; };
+		9B76F7F6C7A0746473605375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A523A38A39529D2F733A832 /* Foundation.framework */; };
+		AAB0B23D01851FC2126A518F /* WTDictionaryCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C2254EA096B12632EE6EDF /* WTDictionaryCoding.h */; };
+		AF79CBC561214B2B575CD0CA /* WTTaskResponse+NSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 034D494206C03A4F5613F877 /* WTTaskResponse+NSError.h */; };
+		B4909B340D03F2CB65CDA020 /* Pods-WatchTasksApp-WatchTasks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B327A8B9AAF131C9DC31DD /* Pods-WatchTasksApp-WatchTasks-dummy.m */; };
+		BD7D576EAC019D2CFD8B2D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A523A38A39529D2F733A832 /* Foundation.framework */; };
+		DC0DFAE42E4B42AAC0A89A2D /* WTTaskRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0007D412EC424EF352148967 /* WTTaskRequest.h */; };
+		DFBFD385ADEB5A4782C1EA2A /* WTTaskRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B6422A5A0E3E8678632BDEDC /* WTTaskRequest.m */; };
+		E7B32DBCE3E4AF251E827AE4 /* WTDictionaryCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C2254EA096B12632EE6EDF /* WTDictionaryCoding.h */; };
+		E9FECBA0B8F336F49E168351 /* Pods-WatchTasksApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A230C9DBE041BDB5331604E6 /* Pods-WatchTasksApp-dummy.m */; };
+		F4022C8543BE736B608F3556 /* WTTaskRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B6422A5A0E3E8678632BDEDC /* WTTaskRequest.m */; };
+		FAF86D703D7F5A2556C8C3F2 /* WTTaskResponse+NSError.m in Sources */ = {isa = PBXBuildFile; fileRef = D501EEF0A6627C226D22E031 /* WTTaskResponse+NSError.m */; };
+		FEBC5819FD6BFB1388477275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A523A38A39529D2F733A832 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D6B529E4CE7C2558489776A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2141DF1EE7DD41DF031DB0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715B5D8FD04D5B73C857EF1F;
+			remoteInfo = "Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks";
+		};
+		5E05EA165DDE444F44C0B041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2141DF1EE7DD41DF031DB0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E9DF924DC9C4D647E99DF7;
+			remoteInfo = "Pods-WatchTasksApp-WatchTasks";
+		};
+		A6B8361EA7C8606C071FB0DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2141DF1EE7DD41DF031DB0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A87162C3ACF119F71FC63C;
+			remoteInfo = "Pods-WatchTasksApp-WatchTasks-WatchTasks";
+		};
+		DCAE24A095CB07118421201F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2141DF1EE7DD41DF031DB0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC34146F76E861B6D3DB3ED5;
+			remoteInfo = "Pods-WatchTasksApp WatchKit Extension-WatchTasks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0007D412EC424EF352148967 /* WTTaskRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTTaskRequest.h; sourceTree = "<group>"; };
+		034D494206C03A4F5613F877 /* WTTaskResponse+NSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTTaskResponse+NSError.h"; sourceTree = "<group>"; };
+		054AF30069F4852631B296B4 /* WTTaskServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTTaskServer.h; sourceTree = "<group>"; };
+		0D5E76CE638B28F73943BEF7 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTasksApp WatchKit Extension-WatchTasks.xcconfig"; sourceTree = "<group>"; };
+		2A523A38A39529D2F733A832 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C25088DFE7166D828751C57 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34A4FDB7C90A44DF5427F86E /* Pods-WatchTasksApp-WatchTasks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchTasksApp-WatchTasks.xcconfig"; path = "../Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks.xcconfig"; sourceTree = "<group>"; };
+		3EA34600E30082EED970274B /* Pods-WatchTasksApp WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTasksApp WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		43C2254EA096B12632EE6EDF /* WTDictionaryCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTDictionaryCoding.h; sourceTree = "<group>"; };
+		4DDE713397D470A198695F61 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTasksApp WatchKit Extension-WatchTasks-Private.xcconfig"; sourceTree = "<group>"; };
+		57FEC3D630E578EB60C46156 /* Pods-WatchTasksApp WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTasksApp WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		587AF41E4C1E9941E3C8EC92 /* libPods-WatchTasksApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchTasksApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1F9D7597B9FDFFD37B61D3 /* Pods-WatchTasksApp-WatchTasks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchTasksApp-WatchTasks-Private.xcconfig"; path = "../Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-Private.xcconfig"; sourceTree = "<group>"; };
+		5D8748920F5D7919971E5052 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTasksApp WatchKit Extension-WatchTasks-prefix.pch"; sourceTree = "<group>"; };
+		5FFF588BD4960C03A4FCBD62 /* Pods-WatchTasksApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchTasksApp-resources.sh"; sourceTree = "<group>"; };
+		686383FAB1928DA83E94F20E /* WTTaskResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTTaskResponse.m; sourceTree = "<group>"; };
+		6BB0A55460CDF9083359E1A3 /* WTTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTTask.h; sourceTree = "<group>"; };
+		6FB5EC6F89F611918E1245BD /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTasksApp WatchKit Extension-WatchTasks-dummy.m"; sourceTree = "<group>"; };
+		7AC514470D8BA32011770565 /* WTTaskClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTTaskClient.h; sourceTree = "<group>"; };
+		7E05BDDA51463E7CDC9590C9 /* Pods-WatchTasksApp WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTasksApp WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		7F6C0EF6AC66E0838AEAC0E5 /* WTTaskServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTTaskServer.m; sourceTree = "<group>"; };
+		83B20A0816D0334678E92731 /* libPods-WatchTasksApp-WatchTasks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchTasksApp-WatchTasks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A088DE240CD88666B02D539 /* Pods-WatchTasksApp WatchKit Extension-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTasksApp WatchKit Extension-environment.h"; sourceTree = "<group>"; };
+		8AD650BA6317A5F286F36C3F /* Pods-WatchTasksApp WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTasksApp WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		8B0C23431DB318E2F5E5884C /* Pods-WatchTasksApp WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchTasksApp WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		93141AB71BB570D6EA14F135 /* WatchTasks.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchTasks.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9462A30F3BE06281BD4379A2 /* WatchTasks.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchTasks.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D665EC67A413384CE74ACB /* WatchTasks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WatchTasks.h; sourceTree = "<group>"; };
+		A0036249184EC9CB55D27C58 /* WTTaskResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTTaskResponse.h; sourceTree = "<group>"; };
+		A230C9DBE041BDB5331604E6 /* Pods-WatchTasksApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchTasksApp-dummy.m"; sourceTree = "<group>"; };
+		A4B327A8B9AAF131C9DC31DD /* Pods-WatchTasksApp-WatchTasks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-WatchTasksApp-WatchTasks-dummy.m"; path = "../Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-dummy.m"; sourceTree = "<group>"; };
+		A64EE313E5FA2443FB4E829B /* WTTaskClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTTaskClient.m; sourceTree = "<group>"; };
+		A695F9E8128D582BEFF6C2BE /* Pods-WatchTasksApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTasksApp.release.xcconfig"; sourceTree = "<group>"; };
+		ACCCAF40887B0E8FD97F8BB2 /* Pods-WatchTasksApp WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTasksApp WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6422A5A0E3E8678632BDEDC /* WTTaskRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTTaskRequest.m; sourceTree = "<group>"; };
+		B7AB0CDCDD2DB728537CFBDA /* libPods-WatchTasksApp WatchKit Extension-WatchTasks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchTasksApp WatchKit Extension-WatchTasks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A49C3F1B4969908672D3F8 /* Pods-WatchTasksApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchTasksApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2B4B0E027111661F34880B8 /* Pods-WatchTasksApp-WatchTasks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-WatchTasksApp-WatchTasks-prefix.pch"; path = "../Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-prefix.pch"; sourceTree = "<group>"; };
+		C4DBD47BD9D22A9EFAA31B21 /* libPods-WatchTasksApp WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchTasksApp WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CE2D3063AD702FFE41756F /* Pods-WatchTasksApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchTasksApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D501EEF0A6627C226D22E031 /* WTTaskResponse+NSError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTTaskResponse+NSError.m"; sourceTree = "<group>"; };
+		F9674B703E3634DA4F23DD8E /* Pods-WatchTasksApp-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchTasksApp-environment.h"; sourceTree = "<group>"; };
+		FA518B4BC33DC4EA23C38CE3 /* Pods-WatchTasksApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchTasksApp-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36F549F1F662D7933EA5211E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994379543787006B0C403C79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3852B62F952BA2A590425C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C26DB37C821F6EC87604B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7D576EAC019D2CFD8B2D34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0362E08A159BA49271D3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBC5819FD6BFB1388477275 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDB4532C014A46323546B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0363DF52D12528077E53689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76F7F6C7A0746473605375 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02EFDDF565C2C77CF941BE50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7438D94779167C8941312A51 /* Pods-WatchTasksApp */,
+				EA5B7C4F1202F1689D3877A7 /* Pods-WatchTasksApp WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18579578E65198A41505F925 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D5E76CE638B28F73943BEF7 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks.xcconfig */,
+				4DDE713397D470A198695F61 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-Private.xcconfig */,
+				6FB5EC6F89F611918E1245BD /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-dummy.m */,
+				5D8748920F5D7919971E5052 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-prefix.pch */,
+				34A4FDB7C90A44DF5427F86E /* Pods-WatchTasksApp-WatchTasks.xcconfig */,
+				5B1F9D7597B9FDFFD37B61D3 /* Pods-WatchTasksApp-WatchTasks-Private.xcconfig */,
+				A4B327A8B9AAF131C9DC31DD /* Pods-WatchTasksApp-WatchTasks-dummy.m */,
+				C2B4B0E027111661F34880B8 /* Pods-WatchTasksApp-WatchTasks-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-WatchTasksApp WatchKit Extension-WatchTasks";
+			sourceTree = "<group>";
+		};
+		4C15DEBAC2119EDB3A5CCA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93141AB71BB570D6EA14F135 /* WatchTasks.bundle */,
+				9462A30F3BE06281BD4379A2 /* WatchTasks.bundle */,
+				587AF41E4C1E9941E3C8EC92 /* libPods-WatchTasksApp.a */,
+				C4DBD47BD9D22A9EFAA31B21 /* libPods-WatchTasksApp WatchKit Extension.a */,
+				B7AB0CDCDD2DB728537CFBDA /* libPods-WatchTasksApp WatchKit Extension-WatchTasks.a */,
+				83B20A0816D0334678E92731 /* libPods-WatchTasksApp-WatchTasks.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7438D94779167C8941312A51 /* Pods-WatchTasksApp */ = {
+			isa = PBXGroup;
+			children = (
+				C0A49C3F1B4969908672D3F8 /* Pods-WatchTasksApp-acknowledgements.markdown */,
+				FA518B4BC33DC4EA23C38CE3 /* Pods-WatchTasksApp-acknowledgements.plist */,
+				A230C9DBE041BDB5331604E6 /* Pods-WatchTasksApp-dummy.m */,
+				F9674B703E3634DA4F23DD8E /* Pods-WatchTasksApp-environment.h */,
+				5FFF588BD4960C03A4FCBD62 /* Pods-WatchTasksApp-resources.sh */,
+				C9CE2D3063AD702FFE41756F /* Pods-WatchTasksApp.debug.xcconfig */,
+				A695F9E8128D582BEFF6C2BE /* Pods-WatchTasksApp.release.xcconfig */,
+			);
+			name = "Pods-WatchTasksApp";
+			path = "Target Support Files/Pods-WatchTasksApp";
+			sourceTree = "<group>";
+		};
+		87D3A9D089526E7739EAFA2F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A399E0622E9A98D87417F /* WatchTasks */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		95D9B1D91EF57285AA529A7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				43C2254EA096B12632EE6EDF /* WTDictionaryCoding.h */,
+				6BB0A55460CDF9083359E1A3 /* WTTask.h */,
+				7AC514470D8BA32011770565 /* WTTaskClient.h */,
+				A64EE313E5FA2443FB4E829B /* WTTaskClient.m */,
+				0007D412EC424EF352148967 /* WTTaskRequest.h */,
+				B6422A5A0E3E8678632BDEDC /* WTTaskRequest.m */,
+				A0036249184EC9CB55D27C58 /* WTTaskResponse.h */,
+				686383FAB1928DA83E94F20E /* WTTaskResponse.m */,
+				034D494206C03A4F5613F877 /* WTTaskResponse+NSError.h */,
+				D501EEF0A6627C226D22E031 /* WTTaskResponse+NSError.m */,
+				054AF30069F4852631B296B4 /* WTTaskServer.h */,
+				7F6C0EF6AC66E0838AEAC0E5 /* WTTaskServer.m */,
+				94D665EC67A413384CE74ACB /* WatchTasks.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9DA64CE9AEE8EF7A8EFACD3C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A523A38A39529D2F733A832 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A8D96E583B8ACBC1E902CE9C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				95D9B1D91EF57285AA529A7A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B75B594731B458C5AB239948 = {
+			isa = PBXGroup;
+			children = (
+				2C25088DFE7166D828751C57 /* Podfile */,
+				87D3A9D089526E7739EAFA2F /* Development Pods */,
+				E54A14236021F0C4DC3F8E7A /* Frameworks */,
+				4C15DEBAC2119EDB3A5CCA9A /* Products */,
+				02EFDDF565C2C77CF941BE50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E54A14236021F0C4DC3F8E7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA64CE9AEE8EF7A8EFACD3C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA1A399E0622E9A98D87417F /* WatchTasks */ = {
+			isa = PBXGroup;
+			children = (
+				A8D96E583B8ACBC1E902CE9C /* Pod */,
+				18579578E65198A41505F925 /* Support Files */,
+			);
+			name = WatchTasks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA5B7C4F1202F1689D3877A7 /* Pods-WatchTasksApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				57FEC3D630E578EB60C46156 /* Pods-WatchTasksApp WatchKit Extension-acknowledgements.markdown */,
+				ACCCAF40887B0E8FD97F8BB2 /* Pods-WatchTasksApp WatchKit Extension-acknowledgements.plist */,
+				7E05BDDA51463E7CDC9590C9 /* Pods-WatchTasksApp WatchKit Extension-dummy.m */,
+				8A088DE240CD88666B02D539 /* Pods-WatchTasksApp WatchKit Extension-environment.h */,
+				8B0C23431DB318E2F5E5884C /* Pods-WatchTasksApp WatchKit Extension-resources.sh */,
+				3EA34600E30082EED970274B /* Pods-WatchTasksApp WatchKit Extension.debug.xcconfig */,
+				8AD650BA6317A5F286F36C3F /* Pods-WatchTasksApp WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-WatchTasksApp WatchKit Extension";
+			path = "Target Support Files/Pods-WatchTasksApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F265023E5558E598A6D3A91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B32DBCE3E4AF251E827AE4 /* WTDictionaryCoding.h in Headers */,
+				85EF852B5B160D44D34BE53C /* WTTask.h in Headers */,
+				5A0E8F2D6EF92D1CED9A9EDD /* WTTaskClient.h in Headers */,
+				DC0DFAE42E4B42AAC0A89A2D /* WTTaskRequest.h in Headers */,
+				AF79CBC561214B2B575CD0CA /* WTTaskResponse+NSError.h in Headers */,
+				05951076E93C7E88BE1A192E /* WTTaskResponse.h in Headers */,
+				96E644DA205378E4E195E975 /* WTTaskServer.h in Headers */,
+				3F74FA9C2F8DC45A53DB9B85 /* WatchTasks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80439558DE320B395CBE5C1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0B23D01851FC2126A518F /* WTDictionaryCoding.h in Headers */,
+				5612142B498E2C151DFD2425 /* WTTask.h in Headers */,
+				7405517F84FBA94CC1C32712 /* WTTaskClient.h in Headers */,
+				53AFC384BCEC5D941F32972C /* WTTaskRequest.h in Headers */,
+				6EC04A59771D2C0D6A60C0FB /* WTTaskResponse+NSError.h in Headers */,
+				149932E8BD380F59247501C7 /* WTTaskResponse.h in Headers */,
+				29E671F5C978E0C6DC006D4A /* WTTaskServer.h in Headers */,
+				79BB1CE0E85EDF7204BAD591 /* WatchTasks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45E9DF924DC9C4D647E99DF7 /* Pods-WatchTasksApp-WatchTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF92878B6AC2A1F172C6534 /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp-WatchTasks" */;
+			buildPhases = (
+				BBC91A061DE592F893AFDED8 /* Sources */,
+				D0363DF52D12528077E53689 /* Frameworks */,
+				1F265023E5558E598A6D3A91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437F9D54EB3880845AA16779 /* PBXTargetDependency */,
+			);
+			name = "Pods-WatchTasksApp-WatchTasks";
+			productName = "Pods-WatchTasksApp-WatchTasks";
+			productReference = 83B20A0816D0334678E92731 /* libPods-WatchTasksApp-WatchTasks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50A87162C3ACF119F71FC63C /* Pods-WatchTasksApp-WatchTasks-WatchTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228A2B1060DE44FD9444EEFE /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp-WatchTasks-WatchTasks" */;
+			buildPhases = (
+				499A58E8EE175F45CA7F00C1 /* Sources */,
+				9DDB4532C014A46323546B9C /* Frameworks */,
+				2249D0CC43AC0929D94E1993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WatchTasksApp-WatchTasks-WatchTasks";
+			productName = "Pods-WatchTasksApp-WatchTasks-WatchTasks";
+			productReference = 93141AB71BB570D6EA14F135 /* WatchTasks.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		693AE16D47A4C6E24E08EB55 /* Pods-WatchTasksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD24033D1FCFA996A1A98243 /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp" */;
+			buildPhases = (
+				D7EE8B3897E20C2DF139B075 /* Sources */,
+				36F549F1F662D7933EA5211E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F40A8DE3A65C09BA7C1F568 /* PBXTargetDependency */,
+			);
+			name = "Pods-WatchTasksApp";
+			productName = "Pods-WatchTasksApp";
+			productReference = 587AF41E4C1E9941E3C8EC92 /* libPods-WatchTasksApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		715B5D8FD04D5B73C857EF1F /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA807A20255EE1A29524DDC /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks" */;
+			buildPhases = (
+				4668DB46C42A33A8E990C392 /* Sources */,
+				3852B62F952BA2A590425C47 /* Frameworks */,
+				D512B142772D0EE775A57D11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks";
+			productName = "Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks";
+			productReference = 9462A30F3BE06281BD4379A2 /* WatchTasks.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A95B44D3473F2EA570332819 /* Pods-WatchTasksApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAA58E721EC7FB6D645E739 /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp WatchKit Extension" */;
+			buildPhases = (
+				9E579C93BF840C748CCD0399 /* Sources */,
+				8F0362E08A159BA49271D3FC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D4BB90BC34078DFEC560CE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-WatchTasksApp WatchKit Extension";
+			productName = "Pods-WatchTasksApp WatchKit Extension";
+			productReference = C4DBD47BD9D22A9EFAA31B21 /* libPods-WatchTasksApp WatchKit Extension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC34146F76E861B6D3DB3ED5 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97767713A934669B1CDF2331 /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp WatchKit Extension-WatchTasks" */;
+			buildPhases = (
+				96DEDCD2680A1E7251A31BD4 /* Sources */,
+				7C26DB37C821F6EC87604B5E /* Frameworks */,
+				80439558DE320B395CBE5C1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74BC022A497D3ABC16D2CDE /* PBXTargetDependency */,
+			);
+			name = "Pods-WatchTasksApp WatchKit Extension-WatchTasks";
+			productName = "Pods-WatchTasksApp WatchKit Extension-WatchTasks";
+			productReference = B7AB0CDCDD2DB728537CFBDA /* libPods-WatchTasksApp WatchKit Extension-WatchTasks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2141DF1EE7DD41DF031DB0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 2973421428CDC7FAFDC98D21 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B75B594731B458C5AB239948;
+			productRefGroup = 4C15DEBAC2119EDB3A5CCA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				693AE16D47A4C6E24E08EB55 /* Pods-WatchTasksApp */,
+				A95B44D3473F2EA570332819 /* Pods-WatchTasksApp WatchKit Extension */,
+				BC34146F76E861B6D3DB3ED5 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks */,
+				715B5D8FD04D5B73C857EF1F /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks */,
+				45E9DF924DC9C4D647E99DF7 /* Pods-WatchTasksApp-WatchTasks */,
+				50A87162C3ACF119F71FC63C /* Pods-WatchTasksApp-WatchTasks-WatchTasks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2249D0CC43AC0929D94E1993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D512B142772D0EE775A57D11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4668DB46C42A33A8E990C392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499A58E8EE175F45CA7F00C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DEDCD2680A1E7251A31BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C20FD8C01ECC723C6D55E39 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-dummy.m in Sources */,
+				2C821B2D629EA371FCB934BF /* WTTaskClient.m in Sources */,
+				DFBFD385ADEB5A4782C1EA2A /* WTTaskRequest.m in Sources */,
+				FAF86D703D7F5A2556C8C3F2 /* WTTaskResponse+NSError.m in Sources */,
+				091B31C3CED619891AFA9964 /* WTTaskResponse.m in Sources */,
+				7033171AC58B37C3F7092281 /* WTTaskServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E579C93BF840C748CCD0399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6778230CB4B897AE0453E49B /* Pods-WatchTasksApp WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC91A061DE592F893AFDED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4909B340D03F2CB65CDA020 /* Pods-WatchTasksApp-WatchTasks-dummy.m in Sources */,
+				2EAFA7CD70CD2FB5B4DCCED0 /* WTTaskClient.m in Sources */,
+				F4022C8543BE736B608F3556 /* WTTaskRequest.m in Sources */,
+				45B36DBBA8741D1CC73F8247 /* WTTaskResponse+NSError.m in Sources */,
+				07D9C1F37B60A84F0A9BC1F1 /* WTTaskResponse.m in Sources */,
+				6C52B2DB1513D5E07771FCAF /* WTTaskServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EE8B3897E20C2DF139B075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FECBA0B8F336F49E168351 /* Pods-WatchTasksApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D4BB90BC34078DFEC560CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WatchTasksApp WatchKit Extension-WatchTasks";
+			target = BC34146F76E861B6D3DB3ED5 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks */;
+			targetProxy = DCAE24A095CB07118421201F /* PBXContainerItemProxy */;
+		};
+		437F9D54EB3880845AA16779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WatchTasksApp-WatchTasks-WatchTasks";
+			target = 50A87162C3ACF119F71FC63C /* Pods-WatchTasksApp-WatchTasks-WatchTasks */;
+			targetProxy = A6B8361EA7C8606C071FB0DB /* PBXContainerItemProxy */;
+		};
+		4F40A8DE3A65C09BA7C1F568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WatchTasksApp-WatchTasks";
+			target = 45E9DF924DC9C4D647E99DF7 /* Pods-WatchTasksApp-WatchTasks */;
+			targetProxy = 5E05EA165DDE444F44C0B041 /* PBXContainerItemProxy */;
+		};
+		E74BC022A497D3ABC16D2CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks";
+			target = 715B5D8FD04D5B73C857EF1F /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks */;
+			targetProxy = 4D6B529E4CE7C2558489776A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07437F849995AEDF861582FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D2D7A01F340F9FD0E10FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDE713397D470A198695F61 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WatchTasks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		39569F3D57146DE83E5C28B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDE713397D470A198695F61 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WatchTasks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4511EF033DB3E619907DDBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A695F9E8128D582BEFF6C2BE /* Pods-WatchTasksApp.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4B23DC83B8DF2849E27CB46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1F9D7597B9FDFFD37B61D3 /* Pods-WatchTasksApp-WatchTasks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C4C0BADA58BEC3E0EEA0385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD650BA6317A5F286F36C3F /* Pods-WatchTasksApp WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		60C698A77B5D5C75B0FDFF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1F9D7597B9FDFFD37B61D3 /* Pods-WatchTasksApp-WatchTasks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WatchTasksApp-WatchTasks/Pods-WatchTasksApp-WatchTasks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6595BA7CE9BF405F1ADF37EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1F9D7597B9FDFFD37B61D3 /* Pods-WatchTasksApp-WatchTasks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WatchTasks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A44A77E7DF2FCA84815D1101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDE713397D470A198695F61 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WatchTasksApp WatchKit Extension-WatchTasks/Pods-WatchTasksApp WatchKit Extension-WatchTasks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4753DCDAFA52021086E311B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA34600E30082EED970274B /* Pods-WatchTasksApp WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B88925F064BB9AA3E4846342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CE2D3063AD702FFE41756F /* Pods-WatchTasksApp.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B926CCA4E9BEF5DA6E13D825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C699BF046CDC3A503AA7C139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDE713397D470A198695F61 /* Pods-WatchTasksApp WatchKit Extension-WatchTasks-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WatchTasksApp WatchKit Extension-WatchTasks/Pods-WatchTasksApp WatchKit Extension-WatchTasks-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDC7BD14167275BED613A0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1F9D7597B9FDFFD37B61D3 /* Pods-WatchTasksApp-WatchTasks-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WatchTasks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228A2B1060DE44FD9444EEFE /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp-WatchTasks-WatchTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC7BD14167275BED613A0FC /* Debug */,
+				6595BA7CE9BF405F1ADF37EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2973421428CDC7FAFDC98D21 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B926CCA4E9BEF5DA6E13D825 /* Debug */,
+				07437F849995AEDF861582FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF92878B6AC2A1F172C6534 /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp-WatchTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23DC83B8DF2849E27CB46E /* Debug */,
+				60C698A77B5D5C75B0FDFF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97767713A934669B1CDF2331 /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp WatchKit Extension-WatchTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C699BF046CDC3A503AA7C139 /* Debug */,
+				A44A77E7DF2FCA84815D1101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA807A20255EE1A29524DDC /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp WatchKit Extension-WatchTasks-WatchTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39569F3D57146DE83E5C28B1 /* Debug */,
+				18D2D7A01F340F9FD0E10FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD24033D1FCFA996A1A98243 /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88925F064BB9AA3E4846342 /* Debug */,
+				4511EF033DB3E619907DDBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAA58E721EC7FB6D645E739 /* Build configuration list for PBXNativeTarget "Pods-WatchTasksApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4753DCDAFA52021086E311B /* Debug */,
+				5C4C0BADA58BEC3E0EEA0385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2141DF1EE7DD41DF031DB0A7 /* Project object */;
+}

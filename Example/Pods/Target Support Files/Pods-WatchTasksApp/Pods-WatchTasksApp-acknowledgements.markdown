@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## WatchTasks
 
-Copyright (c) 2015 Agustín de Cabrera <Agustin.DeCabrera@rga.com>
+Copyright (c) 2015 Agustin de Cabrera <Agustin.DeCabrera@rga.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

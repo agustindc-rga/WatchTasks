@@ -1,14 +1,14 @@
 PODS:
-  - WatchTasks (0.1.0)
+  - WatchTasks (1.0.0)
 
 DEPENDENCIES:
   - WatchTasks (from `../`)
 
 EXTERNAL SOURCES:
   WatchTasks:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  WatchTasks: 3a92b1dd04dc838364e47f5404f10829df65117a
+  WatchTasks: 48fb65471aa58803fa502046cf396ce6da5a1887
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.37.1

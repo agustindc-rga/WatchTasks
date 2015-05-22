@@ -25,6 +25,8 @@
         // return a message
         response.data[@"message"] = [NSString stringWithFormat:@"Hello %@!", name];
         
+        response.data[@"test"] = nil;
+        
     } completion:completion];
 }
 
